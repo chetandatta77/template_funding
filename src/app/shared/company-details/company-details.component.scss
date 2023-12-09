@@ -1,0 +1,33 @@
+.list-group {
+  position: sticky;
+  top: 4em;
+}
+
+blockquote {
+  quotes: "“" "”";
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 1.25em;
+  border-left: 5px solid #ccc;
+}
+
+blockquote:before {
+  content: open-quote;
+}
+
+blockquote:after {
+  content: close-quote;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  margin: 20px;
+}
+
+.large-font {
+  font-size: 2em; /* Adjust this value to your preference */
+}
